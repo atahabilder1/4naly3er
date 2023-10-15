@@ -3,6 +3,10 @@ pragma solidity ^0.8.0;
 contract Test {
     uint256 a = 0;
 
+    function addressbalanceCheck() public view returns (uint256) {
+        return address(this).balance;
+    }
+
     function test(address iasd) external returns (uint256) {
         return 123;
     }
