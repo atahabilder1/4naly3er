@@ -3,10 +3,12 @@ import { IssueTypes, RegexIssue } from '../../types';
 const issue: RegexIssue = {
   regexOrAST: 'Regex',
   type: IssueTypes.L,
-  title: ' Low Level Calls to Custom Addresses',
+  title:
+    ' Low Level Calls to Custom Addresses',
   description:
     "Contracts should avoid making low-level calls to custom addresses, especially if these calls are based on address parameters in the function. Such behavior can lead to unexpected execution of untrusted code. Instead, consider using Solidity's high-level function calls or contract interactions.",
   regex: /\(\w*\)[.]call\{\w*:\s+\w*\}\(\w*""\)/g,
+  
 };
 
 export default issue;

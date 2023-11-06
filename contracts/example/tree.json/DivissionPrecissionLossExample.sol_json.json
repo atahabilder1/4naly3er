@@ -1,0 +1,253 @@
+{
+  "absolutePath": "DivissionPrecissionLossExample.sol",
+  "exportedSymbols": { "PrecissionLoss": [27] },
+  "id": 28,
+  "license": "MIT",
+  "nodeType": "SourceUnit",
+  "nodes": [
+    { "id": 1, "literals": ["solidity", "0.8", ".22"], "nodeType": "PragmaDirective", "src": "33:23:0" },
+    {
+      "abstract": false,
+      "baseContracts": [],
+      "canonicalName": "PrecissionLoss",
+      "contractDependencies": [],
+      "contractKind": "contract",
+      "fullyImplemented": true,
+      "id": 27,
+      "linearizedBaseContracts": [27],
+      "name": "PrecissionLoss",
+      "nameLocation": "66:14:0",
+      "nodeType": "ContractDefinition",
+      "nodes": [
+        {
+          "constant": false,
+          "functionSelector": "0dbe671f",
+          "id": 4,
+          "mutability": "mutable",
+          "name": "a",
+          "nameLocation": "99:1:0",
+          "nodeType": "VariableDeclaration",
+          "scope": 27,
+          "src": "87:20:0",
+          "stateVariable": true,
+          "storageLocation": "default",
+          "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" },
+          "typeName": {
+            "id": 2,
+            "name": "uint",
+            "nodeType": "ElementaryTypeName",
+            "src": "87:4:0",
+            "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+          },
+          "value": {
+            "hexValue": "38303030",
+            "id": 3,
+            "isConstant": false,
+            "isLValue": false,
+            "isPure": true,
+            "kind": "number",
+            "lValueRequested": false,
+            "nodeType": "Literal",
+            "src": "103:4:0",
+            "typeDescriptions": { "typeIdentifier": "t_rational_8000_by_1", "typeString": "int_const 8000" },
+            "value": "8000"
+          },
+          "visibility": "public"
+        },
+        {
+          "constant": false,
+          "functionSelector": "4df7e3d0",
+          "id": 6,
+          "mutability": "mutable",
+          "name": "b",
+          "nameLocation": "125:1:0",
+          "nodeType": "VariableDeclaration",
+          "scope": 27,
+          "src": "113:13:0",
+          "stateVariable": true,
+          "storageLocation": "default",
+          "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" },
+          "typeName": {
+            "id": 5,
+            "name": "uint",
+            "nodeType": "ElementaryTypeName",
+            "src": "113:4:0",
+            "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+          },
+          "visibility": "public"
+        },
+        {
+          "body": {
+            "id": 15,
+            "nodeType": "Block",
+            "src": "160:25:0",
+            "statements": [
+              {
+                "expression": {
+                  "id": 13,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": false,
+                  "lValueRequested": false,
+                  "leftHandSide": {
+                    "id": 9,
+                    "name": "b",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 6,
+                    "src": "170:1:0",
+                    "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                  },
+                  "nodeType": "Assignment",
+                  "operator": "=",
+                  "rightHandSide": {
+                    "commonType": { "typeIdentifier": "t_uint256", "typeString": "uint256" },
+                    "id": 12,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 10,
+                      "name": "a",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4,
+                      "src": "172:1:0",
+                      "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "/",
+                    "rightExpression": {
+                      "hexValue": "31303030",
+                      "id": 11,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "174:4:0",
+                      "typeDescriptions": { "typeIdentifier": "t_rational_1000_by_1", "typeString": "int_const 1000" },
+                      "value": "1000"
+                    },
+                    "src": "172:6:0",
+                    "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                  },
+                  "src": "170:8:0",
+                  "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                },
+                "id": 14,
+                "nodeType": "ExpressionStatement",
+                "src": "170:8:0"
+              }
+            ]
+          },
+          "functionSelector": "fe394677",
+          "id": 16,
+          "implemented": true,
+          "kind": "function",
+          "modifiers": [],
+          "name": "divission",
+          "nameLocation": "141:9:0",
+          "nodeType": "FunctionDefinition",
+          "parameters": { "id": 7, "nodeType": "ParameterList", "parameters": [], "src": "150:2:0" },
+          "returnParameters": { "id": 8, "nodeType": "ParameterList", "parameters": [], "src": "160:0:0" },
+          "scope": 27,
+          "src": "132:53:0",
+          "stateMutability": "nonpayable",
+          "virtual": false,
+          "visibility": "public"
+        },
+        {
+          "body": {
+            "id": 25,
+            "nodeType": "Block",
+            "src": "220:25:0",
+            "statements": [
+              {
+                "expression": {
+                  "id": 23,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": false,
+                  "lValueRequested": false,
+                  "leftHandSide": {
+                    "id": 19,
+                    "name": "b",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 6,
+                    "src": "230:1:0",
+                    "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                  },
+                  "nodeType": "Assignment",
+                  "operator": "=",
+                  "rightHandSide": {
+                    "commonType": { "typeIdentifier": "t_uint256", "typeString": "uint256" },
+                    "id": 22,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 20,
+                      "name": "a",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4,
+                      "src": "232:1:0",
+                      "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "/",
+                    "rightExpression": {
+                      "hexValue": "39303030",
+                      "id": 21,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "234:4:0",
+                      "typeDescriptions": { "typeIdentifier": "t_rational_9000_by_1", "typeString": "int_const 9000" },
+                      "value": "9000"
+                    },
+                    "src": "232:6:0",
+                    "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                  },
+                  "src": "230:8:0",
+                  "typeDescriptions": { "typeIdentifier": "t_uint256", "typeString": "uint256" }
+                },
+                "id": 24,
+                "nodeType": "ExpressionStatement",
+                "src": "230:8:0"
+              }
+            ]
+          },
+          "functionSelector": "e43a1ba8",
+          "id": 26,
+          "implemented": true,
+          "kind": "function",
+          "modifiers": [],
+          "name": "divission2",
+          "nameLocation": "200:10:0",
+          "nodeType": "FunctionDefinition",
+          "parameters": { "id": 17, "nodeType": "ParameterList", "parameters": [], "src": "210:2:0" },
+          "returnParameters": { "id": 18, "nodeType": "ParameterList", "parameters": [], "src": "220:0:0" },
+          "scope": 27,
+          "src": "191:54:0",
+          "stateMutability": "nonpayable",
+          "virtual": false,
+          "visibility": "public"
+        }
+      ],
+      "scope": 28,
+      "src": "57:193:0",
+      "usedErrors": [],
+      "usedEvents": []
+    }
+  ],
+  "src": "33:217:0"
+}
